@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url('menu3.jpg');
+    background-size: cover;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+.navbar {
+    background-color: rgba(235, 230, 230, 0.907);
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #020202fc;
+    text-decoration: none;
+}
+
+header {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#menu {
+    padding: 2em;
+}
+#menu h2 {
+    color: #088516;
+    text-align: center;
+    margin-top: 1em;
+}
+.menu-item {
+    background-color: white;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    color: #800000;
+    margin-top: 0;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+    color: #800000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #menu {
+        padding: 1em;
+    }
+
+    .menu-item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+        padding: 0.5em 0;
+    }
+
+    .menu-item {
+        padding: 0.5em;
+    }
+
+    .menu-item h3 {
+        font-size: 1.2em;
+    }
+
+    .menu-item p {
+        font-size: 0.9em;
+    }
+
+    .price {
+⬤
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Dawat</h1>
+            <ul class="nav-links">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <h1>Welcome to Dawat</h1>
+    </header>
+    <section id="menu">
+        <h2>Starters</h2>
+        <div class="menu-item">
+            <h3>dosa</h3>
+            <p>Crispy fried pastry filled with spiced potatoes and peas. <span class="price">30.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>Chaat</h3>
+            <p>Crunchy wafers topped with potatoes, chickpeas, and chutneys. <span class="price">25.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>egg roll</h3>
+            <p>Crunchy wafers topped with egg and chowmin masala. <span class="price">50.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>chowmin</h3>
+            <p>spicy noodles with masala mix. <span class="price">50.00</span></p>
+        </div>
+
+        <h2>Main Courses</h2>
+        <div class="menu-item">
+            <h3>Butter Chicken</h3>
+            <p>Chicken cooked in a creamy tomato sauce. <span class="price">120.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>chicken masala</h3>
+            <p>Chicken cooked in a creamy tomato sauce. <span class="price">130.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>Paneer Tikka Masala</h3>
+            <p>Grilled paneer cubes in a rich tomato gravy. <span class="price">100.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>mushroom curry
+                </h3>
+            <p>Grilled paneer cubes in a rich tomato gravy. <span class="price">110.00</span></p>
+        </div>
+        <h2>Desserts</h2>
+        <div class="menu-item">
+            <h3>Gulab Jamun</h3>
+            <p>Fried dough balls soaked in sugar syrup. <span class="price">10.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>Rasmalai</h3>
+            <p>Soft paneer balls in sweetened milk. <span class="price">15.00</span></p>
+        </div>
+        <div class="menu-item">
+            <h3>ice-cream</h3>
+            <p>Soft paneer balls in sweetened milk. <span class="price">35.00</span></p>
+        </div>
+    </section>
+</body>
+</html>

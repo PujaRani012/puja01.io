@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('services.jpg');
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.navbar {
+    background-color: rgba(235, 230, 230, 0.907);
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #020202fc;
+    text-decoration: none;
+}
+header {
+    background-color: #4a2ea8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#services {
+    padding: 2em;
+    text-align: center;
+}
+
+.service {
+    background-color: white;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px orangered;
+}
+
+.service h3 {
+    color: #333;
+    margin-top: 0;
+}
+.services p{
+    color:#666;
+}
+@media (max-width: 768px) {
+    #services {
+        padding: 1em;
+    }
+
+    .service {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+        padding: 0.5em 0;
+    }
+
+    .service {
+        padding: 0.5em;
+    }
+
+    .service h3 {
+        font-size: 1.2em;
+    }
+
+    .service p {
+        font-size: 0.9em;
+    }
+}
